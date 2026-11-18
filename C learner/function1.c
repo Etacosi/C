@@ -1,3 +1,4 @@
+//Check entered number is prime by using function with arguments and return type.
 #include<stdio.h>
 int isprime();
 void main()
@@ -7,9 +8,9 @@ void main()
     scanf("%d",&a);
     z = isprime(a);
     if(z == 1){
-        printf("Entered number is prime.");
+        printf("Entered number %d is prime.",a);
     } else{
-        printf("Entered number is not prime.");
+        printf("Entered number %d is not prime.",a);
     }
 }
 int isprime(int a){
