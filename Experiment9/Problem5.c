@@ -10,7 +10,7 @@ int main()
     if(*ptr1 > *ptr2 && *ptr1 > *ptr3){
         printf("Largest of three number is: %d",*ptr1);
     } else {
-        if(*ptr2 > *ptr1 && *ptr2 > *ptr1){
+        if(*ptr2 > *ptr1 && *ptr2 > *ptr3){
             printf("Largest of three number is: %d",*ptr2);
         }
         else{
@@ -19,4 +19,4 @@ int main()
         }
     }
     return 0;
-}
+} 

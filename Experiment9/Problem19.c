@@ -20,6 +20,7 @@ int main()
             }
         }
     }
+    printf("Array element in ascending order: ");
     for(i = 0; i < n; i++){
         printf("%d ",*(arr + i));
     }

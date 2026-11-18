@@ -4,7 +4,7 @@
 int main()
 {
     int n;
-    printf("Enter number: ");
+    printf("Enter the number: ");
     scanf("%d",&n);
     int *ptr = &n;
     if((*ptr) % 2 == 0){

@@ -4,14 +4,14 @@
 int main()
 {
     int n;
-    printf("Enter number: ");
+    printf("Enter the number: ");
     scanf("%d",&n);
     int *ptr1 = &n;
     int **ptr2 = &ptr1;
     printf("Vlaue of variable:%d\n",n);
     printf("Vlaue accessed using single pointer:%d\n",*ptr1);
     printf("Vlaue accessed using double pointer:%d\n",**ptr2);
-    **ptr2 = n + 1;
+    **ptr2 = **ptr2 + 1;
     printf("Modified vlaue of variable:%d ",n);
     
     return 0;

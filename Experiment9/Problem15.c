@@ -2,7 +2,7 @@
 #include <stdio.h>
 int main()
 {
-    int a,b,s,i = 1;
+    int a,s,i = 1;
     printf("Enter the number: ");
     scanf("%d",&a);
     int *ptr = &a;

@@ -4,7 +4,7 @@
 int main()
 {
     int n,a = 1;
-    printf("Enter number: ");
+    printf("Enter the number: ");
     scanf("%d",&n);
     int *ptr = &n;
     printf("Factorial of %d is: ",n);
